@@ -31,8 +31,7 @@ then `inputSourceMaps` is defined, sourcemaps are merged as expected and
 correct (usable) `.map` files are written to the output directory.
 
 This is what I've done in the forked `LavaTile/webpack-obfuscator` repository 
-(used in `webpack.patched.js`, note that the installation depends on a 
-postinstall step to build the library)
+(used in `webpack.patched.js`)
 
 Outputs of both original and patched version of the library can be found in `dist/`
 and validated using https://sokra.github.io/source-map-visualization/#custom
